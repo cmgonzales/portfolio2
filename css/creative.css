@@ -36,7 +36,8 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #F05F40 !important; }
+  padding-top: 0;
+  background-color: rgb(255, 255, 255) !important; } 
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -234,18 +235,27 @@ header.masthead {
   background-color: transparent;
 }
 #imagine{
-  position: 1;
-  position: relative;
+ 
   display: none;
   font-family: 'Seaweed Script', cursive;
 }
 #create{
-
+  position: absolute;
+  z-index: 1;
   display: none;
   font-family: 'Seaweed Script', cursive;
 }
 #deploy{
-  z-index: 1;
+  top: 80px;
+  left: 50px;
+  position: absolute;
   display: none;
   font-family: 'Seaweed Script', cursive;
+}
+
+#profile{
+  text-align: center;
+  border-radius: 50%;
+  height: 150px;
+  
 }
