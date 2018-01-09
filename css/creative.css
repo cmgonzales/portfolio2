@@ -235,7 +235,9 @@ header.masthead {
   background-color: transparent;
 }
 #imagine{
- 
+  bottom: 15px;
+  left: 120px;
+ position: absolute;
   display: none;
   font-family: 'Seaweed Script', cursive;
 }
@@ -254,7 +256,7 @@ header.masthead {
 }
 
 #profile{
-  text-align: center;
+  margin: 0 auto;
   border-radius: 50%;
   height: 150px;
   
