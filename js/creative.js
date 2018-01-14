@@ -82,7 +82,24 @@ $(document).ready(function(){
   $("#deploy").delay(5000).fadeIn(1000)
 
    $("#imagine").hide()
-  // $("#create").fadeOut(1)
-  // $("#deploy")
-   }
-});
+
+  }
+ 
+  });
+
+
+  var skillsDiv = $('#skills');
+
+  $(window).on('scroll', function(){
+    var winT = $(window).scrollTop(),
+      winH = $(window).height(),
+      skillsT = skillsDiv.offset().top;
+    if(winT + winH  > skillsT){
+      $('.skillbar').each(function(){
+        $(this).find('.skillbar-bar').animate({
+          width:$(this).attr('data-percent')
+        },3000);
+      });
+    }
+  });
+  
