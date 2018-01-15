@@ -265,6 +265,15 @@ text-align: center;
   
 }
 
+#zodiac{
+  height: 219px;
+}
+#time{
+ height: 216px;
+}
+#orange{
+height: 219px;
+}
 .skillbar {
   position:relative;
   display:block;
