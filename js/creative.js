@@ -75,13 +75,11 @@
 })(jQuery); // End of use strict
 
 $(document).ready(function(){
-
   for (var i = 0; i < 100; i++){
   $("#imagine").delay(1000).fadeIn(1000)
   $("#create").delay(3000).fadeIn(1000)
   $("#deploy").delay(5000).fadeIn(1000)
-
-   $("#imagine").hide()
+ $("#imagine").hide()
 
   }
  
@@ -98,8 +96,7 @@ $(document).ready(function(){
       $('.skillbar').each(function(){
         $(this).find('.skillbar-bar').animate({
           width:$(this).attr('data-percent')
-        },3000);
+        },3000) ;
       });
     }
   });
-  
