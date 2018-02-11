@@ -265,15 +265,11 @@ text-align: center;
   
 }
 
-#zodiac{
-  height: 219px;
-}
+
 #time{
- height: 216px;
+ background-color: black;
 }
-#orange{
-height: 219px;
-}
+
 .skillbar {
   position:relative;
   display:block;
@@ -366,4 +362,28 @@ float: left;
 #name{
   font-family: 'Pattaya', sans-serif;
 
+}
+
+.fa{
+  color: rgb(170, 70, 33) !important;
+}
+
+.fa-linkedin{
+  color:blue !important;
+}
+.fa-github{
+  color: black !important;
+}
+p{
+  color: black;
+}
+#email{
+  color: black;
+}
+.fa-phone{
+  color: black !important;
+}
+
+.my-4{
+  margin-bottom: 50px !important;
 }

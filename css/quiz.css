@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image: url("../img/quizimg.jpg");
+    background-size: cover;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Rozha One', serif;
+}
+div{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+button{
+    margin-top: 10px;
+}

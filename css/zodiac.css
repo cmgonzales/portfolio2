@@ -1,0 +1,99 @@
+.contain{
+    padding-top: 50px;
+    text-align: center; 
+   
+    
+}
+.date{
+    display: inline;
+    
+}
+.btn{
+    margin-top: 10px;
+}
+body{
+ background-image: url("../img/zodiac.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+
+}
+
+
+h1{
+    font-family: 'Rye', cursive;   
+    color: #656F72
+}
+
+img{
+    
+    height: 370px;
+    width: 100%;
+    padding-top: 30px;
+}
+#foo{
+    width: 35%;
+    margin: 0 auto;
+    
+}
+body, html{
+    height: 100%;
+}
+
+@media screen and (max-width: 1000px ){
+    img{
+    height: 300px;
+    }
+}
+
+@media screen and (max-width: 900px ){
+    img{
+    height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px ){
+    img{
+    height: 220px;
+    }
+}
+
+@media screen and (max-width: 750px ){
+    img{
+    height: 180px;
+    }
+}
+
+@media screen and (max-width: 680px ){
+    img{
+    height: 190px;
+    
+    }
+}
+    @media screen and (max-width: 680px ){
+        img{
+        height: 190px;
+        
+        }
+}
+@media screen and (max-width: 655px ){
+    #foo{
+    width: 40%;
+    }
+}
+@media screen and (max-width: 441px ){
+    #foo{
+    width: 55%;
+    }
+}
+@media screen and (min-width: 1319px ){
+    #foo{
+    width: 30%;
+    }
+}
+@media screen and (min-width: 1500px ){
+    #foo{
+    width: 25%;
+    }
+}
+

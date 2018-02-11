@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+div{
+font-size: 30px;
+font-family: 'Oswald', sans-serif;
+color: white;
+}
+body{
+    background-image: url("../img/time.jpg");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
