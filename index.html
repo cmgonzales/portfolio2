@@ -313,6 +313,15 @@
 
     
 
+  <script> $(document).ready(function() {
+      var Body = $('body');
+      Body.addClass('preloader-site');
+  });
+  $(window).load(function() {
+      $('.preloader-wrapper').fadeOut();
+      $('body').removeClass('preloader-site');
+  });
+</script>
     <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 
     <!-- Bootstrap core JavaScript -->
