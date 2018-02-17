@@ -1,166 +1,318 @@
 *{
-    padding: 0;
-    margin: 0;
-  }
-  body{
-  background-color: black;
-  }
-  nav{
-    margin-top: 20px;
-    margin: 0 auto;
-    width: 65%;
-  
-  }
-  .orange{
-    float: left;
-  }
-  
-  ul{
-  padding-top: 15px;
-  padding-bottom: 15px;
-    text-align: center;
-     background-color: orange;
-  }
-  ul li{
-    display: inline;
-    padding-bottom: 10px;
-    font-size: 11px;
-    color: white;
-  
-  }
-  .o{
-  font-family: 'Catamaran', sans-serif;
-  font-weight: bolder;
-  font-size: 32px;
-  }
-  .j{
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    font-weight: lighter;
-    padding-right: 1px;
-  }
-  .z{
-    padding-right: 10px;
-    padding-left: 10px;
-    margin-right: 200px;
-    color: white;
-  }
-  sup{
-    vertical-align: 85%;
-   line-height: 15px;
-   font-size:11px;
-  }
-  .w{
-    margin-left: 10px;
-    padding-right: 50px;
-  }
-  .hr{
-    width: 65%;
-    background-color: white;
-    margin: 0 auto;
-  }
-  hr{
-    border-color: red;
-    width: 99.8%;
-  }
-  input{
-   padding-top: 15px;
-   padding-bottom: 15px;
-   padding-left: 15px;
-   margin-right: 0;
-   background-color: transparent;
-   border: 0;
-  }
-  .wrap{
-  
-    display: inline-block;
-    float: right;
-    margin-left: 250px;
-    margin-right: 0px;
-    background-color: rgb(245,245,245);
-  }
-  button{
-  border: none;
-  background-color: transparent;
-  padding-right: 15px;
-  cursor: pointer;
-  }
-  .orange{
-    margin-left: 2px;
-    margin-right: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  .one{
-    display: inline-block;
-    color: orange;
-    background-color: white;
-    margin-left: 30px;
-    margin-right: 10px;
-    margin-bottom: 50px;
-  }
-  .button{
-    cursor: pointer;
-  }
-  .b{
+  padding: 0;
+  margin: 0;
+}
+body{
+background-color: black;
+}
+nav{
   margin-top: 20px;
-  background-color: orange;
+  margin: 0 auto;
+  width: 65%;
+
+}
+
+
+@media only screen and (max-device-width: 1284px) {
+  nav { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  nav { 
+    width: 95%;
+}
+}
+
+
+.orange{
+  float: left;
+}
+
+@media only screen and (max-device-width: 360px) {
+  .orange{ 
+    width: 95%;
+}
+}
+
+ul{
+padding-top: 15px;
+padding-bottom: 15px;
+  text-align: center;
+   background-color: orange;
+}
+ul li{
+  display: inline;
+  padding-bottom: 10px;
+  font-size: 11px;
+  color: white;
+
+}
+.o{
+font-family: 'Catamaran', sans-serif;
+font-weight: bolder;
+font-size: 32px;
+}
+.j{
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  padding-right: 1px;
+}
+.z{
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 200px;
+  color: white;
+}
+
+@media only screen and (max-device-width: 431px) {
+  .z { 
+    margin-right: 100px;
+}
+}
+sup{
+  vertical-align: 85%;
+ line-height: 15px;
+ font-size:11px;
+}
+.w{
+  margin-left: 10px;
+  padding-right: 50px;
+}
+
+@media only screen and (max-device-width: 489px) {
+  .w { 
+    margin-left: 2px;
+    padding-right: 20px;
+}
+}
+
+@media only screen and (max-device-width: 451px) {
+  .w { 
+    margin-left: 0;
+    padding-right:5px;
+}
+}
+
+
+
+.hr{
+  width: 65%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+@media only screen and (max-device-width: 1284px) {
+  .hr { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  .hr { 
+    width: 95%;
+}
+}
+hr{
+  border-color: red;
+  width: 99.8%;
+}
+input{
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 15px;
+ margin-right: 0;
+ background-color: transparent;
+ border: 0;
+}
+.wrap{
+
+  display: inline-block;
+  float: right;
+  margin-left: 250px;
+  margin-right: 0px;
+  background-color: rgb(245,245,245);
+}
+
+
+@media only screen and (max-device-width: 660px) {
+  .wrap { 
+    margin-left: 150px;
+}
+}
+
+
+@media only screen and (max-device-width: 660px) {
+  .wrap { 
+    margin-left: 50px;
+}
+}
+
+@media only screen and (max-device-width: 489px) {
+  .wrap { 
+    margin-left: 10px;
+}
+}
+@media only screen and (max-device-width: 489px) {
+  .wrap { 
+    margin-left: 0px;
+}
+}
+
+button{
+border: none;
+background-color: transparent;
+padding-right: 15px;
+cursor: pointer;
+}
+.orange{
+  margin-left: 2px;
+  margin-right: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+@media only screen and (max-device-width: 984px) {
+  .orange { 
+    margin-right: 5px;
+    padding-right: 5px;
+
+}
+}
+.one{
+  display: inline-block;
+  color: orange;
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+.button{
+  cursor: pointer;
+}
+.b{
+margin-top: 20px;
+background-color: orange;
+font-size: 12px;
+color: white;
+padding: 10px 30px 10px 30px;
+margin-right: 50px;
+}
+
+.a{
+  background-color: rgb(137,233,240);
   font-size: 12px;
   color: white;
-  padding: 10px 30px 10px 30px;
-  margin-right: 50px;
-  }
-  
-  .a{
-    background-color: rgb(137,233,240);
-    font-size: 12px;
-    color: white;
-    padding: 10px 10px 10px 10px;
-    margin-right: 5px;
-  }
-  
-  .bottom{
-    background-color: white;
-    margin-top: 0;
-    padding-top: 20px;
-    padding-right: 0;
-    padding-left:0;
-    width:65%;
-    margin: 0 auto;
-  }
-  
-  .body{
-  
-    margin: 0 auto;
-    ;
-    background-color: black;
-  }
-  #test{
-   width: 65%;
-   margin: 0 auto;
-   padding-top: 0px;
-   padding-bottom: 0px;
-   background-color: white;
-  
-  }
-  .em{
-    display: inline-block;
-    padding-left: 180px;
-    padding-right: 0;
-  }
-  .blue{
-    color: blue;
-  }
-  
-  footer{
-    background-color: rgb(137,233,240);
-    margin-bottom: 60px;
-    padding-bottom: 90px;
-    width: 65%;
-    margin: 0 auto;
-  }
-  @media only screen and (max-width: 500px) {
-       
-          background-color: lightblue;
-      
-  }
+  padding: 10px 10px 10px 10px;
+  margin-right: 5px;
+}
+
+@media only screen and (max-device-width: 398px) {
+  .b { 
+   padding-right: 4px;
+   margin-right: 5px;
+   padding-left: 4px;
+   font-size: 8px;
+}
+}
+
+@media only screen and (max-device-width: 398px) {
+  .a { 
+   
+   font-size: 8px;
+}
+}
+
+.bottom{
+  background-color: white;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-right: 0;
+  padding-left:0;
+  width:65%;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-device-width: 1284px) {
+  .bottom { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  .bottom { 
+    width: 95%;
+}
+}
+
+.body{
+
+  margin: 0 auto;
+  ;
+  background-color: black;
+}
+.test{
+ width: 65%;
+ margin: 0 auto;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ background-color: white;
+
+}
+
+
+@media only screen and (max-device-width: 1284px) {
+  .test { 
+    width: 85%;
+}
+}
+
+@media only screen and (max-device-width: 843px) {
+  .test { 
+    width: 95%;
+}
+}
+.em{
+  display: inline-block;
+  padding-left: 180px;
+  padding-right: 0;
+}
+
+@media only screen and (max-device-width: 389px) {
+  .em { 
+    padding-left: 150px;
+}
+}
+.blue{
+  color: blue;
+}
+
+footer{
+  background-color: rgb(137,233,240);
+  margin-bottom: 60px;
+  padding-bottom: 90px;
+  width: 65%;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-device-width: 1284px) {
+  footer { 
+    width: 85%;
+}
+}
+@media only screen and (max-device-width: 843px) {
+  footer { 
+    width: 95%;
+}
+}
+
+@media only screen and (max-device-width: 750px) {
+  .navi { 
+    display: none;
+}
+}
