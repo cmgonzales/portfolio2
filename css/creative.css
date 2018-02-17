@@ -162,6 +162,22 @@ header.masthead {
     header.masthead h1 {
       font-size: 4rem; } }
 
+      @media only screen and (max-device-width: 1024px) {
+        header.masthead { 
+          background-image: url("../img/innovation.gif");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+    }
+
+    @media only screen and (max-device-width: 768px) {
+      header.masthead { 
+        background-size: cover;
+             
+     
+      }
+  }
+
 .service-box {
   max-width: 400px; }
 
