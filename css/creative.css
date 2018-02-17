@@ -271,7 +271,7 @@ header.masthead {
 @media only screen and (max-device-width: 416px) {
   header.masthead { 
     background-size: 100% ;
-    height: 410px;
+    height: 420px;
 
   }
 }
@@ -280,31 +280,31 @@ header.masthead {
 @media only screen and (max-device-width: 397px) {
   header.masthead { 
     background-size: 100% ;
-    height: 390px;
+    height: 410px;
 
   }
 }
   @media only screen and (max-device-width: 385px) {
     header.masthead { 
-      height: 380px;
+      height: 400px;
   }
 }
 
   @media only screen and (max-device-width: 375px) {
     header.masthead { 
-      height: 370px;
+      height: 390px;
   }
 }
 
 @media only screen and (max-device-width: 342px) {
   header.masthead { 
-    height: 350px;
+    height: 370px;
 }
 }
 
 @media only screen and (max-device-width: 301px) {
   header.masthead { 
-    height: 370px;
+    height: 360px;
 }
 }
 
