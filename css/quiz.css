@@ -21,7 +21,25 @@ button{
 
 @media only screen and (max-device-width: 414px) {
     .question { 
-      color: rgba(255, 251, 0, 0.952);
+      color: white;
       font-weight: bold;
   }
   }
+
+  @media only screen and (max-device-width: 414px) {
+    body{
+        text-align: center;
+        background-image: url("../img/classroom.jpg");
+        background-size: cover;
+        
+    }
+  }
+
+  @media only screen and (max-device-width: 414px) {
+.title{
+
+color: grey;
+        
+    }
+  }
+  
