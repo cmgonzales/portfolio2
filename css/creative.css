@@ -135,12 +135,14 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/innovation.gif");
-  background-position: center center;
+  background-image: url("../img/react.gif");
+  background-size: contain;
+  background-repeat: no-repeat;
+;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: contain; }
+   }
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -432,12 +434,18 @@ header.masthead {
 text-align: center;
 }
 #profile{
-  padding-top: 15px;
   border-radius: 50%;
-  height: 150px;
+  height: 120px;
   
 }
+.front{
+  margin-top:100px; 
+}
 
+.title{
+  background-color: grey;
+  padding: 0;
+}
 
 #time{
  background-color: black;
