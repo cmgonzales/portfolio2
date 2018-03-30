@@ -135,8 +135,8 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/react.gif");
-  background-size: contain;
+  background-image: url("../img/html.gif");
+  background-size: cover;
   background-repeat: no-repeat;
 ;
   -webkit-background-size: cover;
@@ -322,7 +322,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 301px) {
   header.masthead { 
-    background-image: url("../img/react.gif");
+    background-image: url("../img/html.gif");
     height: 360px;
 }
 }
@@ -452,13 +452,15 @@ text-align: center;
 }
 #profile{
   border-radius: 50%;
-  height: 120px;
+  height: 140px;
+  margin-bottom: 10px;
+  
   
 }
 
 
 .title{
-  background-color: grey;
+  background-color: rgb(44, 43, 43);
   padding: 0;
 }
 
@@ -504,6 +506,11 @@ text-align: center;
   border-bottom-left-radius:3px;
 }
 
+.skills{
+  font-family: 'Pattaya', sans-serif;
+ color:  rgb(245, 143, 75);
+}
+
 .skillbar-title span {
   display:block;
   background:rgba(0, 0, 0, 0.1);
@@ -531,7 +538,11 @@ float: left;
 .containers {
   min-height: 100%;
     height: 100vh;
+}
 
+.container{
+
+margin-bottom: 40px !important;
 
 }
 .skill-bar-percent {
@@ -555,8 +566,8 @@ float: left;
   font-family: 'Saira Condensed', sans-serif;
   
 }
-#name{
-  font-family: 'Pattaya', sans-serif;
+.name{
+  font-family: 'Mallanna', sans-serif;
 
 }
 
