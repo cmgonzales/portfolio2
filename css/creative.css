@@ -155,7 +155,7 @@ header.masthead {
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
-      min-height: 650px;
+      min-height: 700px;
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
@@ -171,16 +171,15 @@ header.masthead {
           background-repeat: no-repeat;
           background-size: cover;
          
-          height: 850px;
+
         }
     }
 
 
     @media only screen and (max-device-width: 991px) {
       header.masthead { 
-      
-        background-size: 100% ;
-        height: 780px;
+    background-size: cover ;
+        height: 870px
     
       }
   }
@@ -188,7 +187,7 @@ header.masthead {
   @media only screen and (max-device-width: 886px) {
     header.masthead { 
     
-      background-size: 100% ;
+      background-size: cover ;
       height: 720px;
   
     }
@@ -197,34 +196,34 @@ header.masthead {
     @media only screen and (max-device-width: 790px) {
       header.masthead { 
        
-        background-size: 100% ;
-        height: 650px;
+        background-size: cover ;
+        height: 700px;
     
       }
   }
 
   @media only screen and (max-device-width: 768px) {
     header.masthead { 
-      
-      background-size: 100% ;
-      height: 630px;
+      background-image: url("../img/htmlcroped.gif");
+      background-size: cover ;
+      height: 680px;
   
     }
 }
 
 @media only screen and (max-device-width: 698px) {
   header.masthead { 
-    
-    background-size: 100% ;
-    height: 600px;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover ;
+    height: 650px;
 
   }
 }
 
 @media only screen and (max-device-width: 624px) {
   header.masthead { 
-  
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover;
     height: 575px;
 
   }
@@ -233,16 +232,16 @@ header.masthead {
 
 @media only screen and (max-device-width: 603px) {
   header.masthead { 
-    
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover;
     height: 530px;
 
   }
 }
 @media only screen and (max-device-width: 554px) {
   header.masthead { 
-    
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover ;
     height: 510px;
 
   }
@@ -250,16 +249,16 @@ header.masthead {
 
 @media only screen and (max-device-width: 503px) {
   header.masthead { 
-    
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover ;
     height: 490px;
 
   }
 }
 @media only screen and (max-device-width: 488px) {
   header.masthead { 
-    
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover;
     height: 470px;
 
   }
@@ -267,8 +266,8 @@ header.masthead {
 
 @media only screen and (max-device-width: 447px) {
   header.masthead { 
-    
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover;
     height: 450px;
 
   }
@@ -276,8 +275,8 @@ header.masthead {
 
 @media only screen and (max-device-width: 416px) {
   header.masthead { 
-   
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover ;
     height: 420px;
 
   }
@@ -286,39 +285,30 @@ header.masthead {
 
 @media only screen and (max-device-width: 397px) {
   header.masthead { 
-  
-    background-size: 100% ;
+    background-image: url("../img/htmlcroped.gif");
+    background-size: cover ;
     height: 410px;
 
   }
 }
-  @media only screen and (max-device-width: 385px) {
-    header.masthead { 
-      
-      height: 400px;
-  }
-}
+  
 
   @media only screen and (max-device-width: 375px) {
     header.masthead { 
-     
-      height: 390px;
+      background-image: url("../img/htmlcroped.gif");
+      background-size: cover;
+      height: 470px;
   }
 }
 
 @media only screen and (max-device-width: 342px) {
   header.masthead { 
-    
-    height: 370px;
+    background-image: url("../img/htmlcroped.gif");
+    height: 450px;
 }
 }
 
-@media only screen and (max-device-width: 301px) {
-  header.masthead { 
-    
-    height: 360px;
-}
-}
+
 
 .service-box {
   max-width: 400px; }
@@ -392,54 +382,7 @@ header.masthead {
 #logos{
   background-color: transparent;
 }
-#imagine{
-  bottom: 15px;
-  left: 120px;
- position: absolute;
-  display: none;
-  font-family: 'Seaweed Script', cursive;
-}
-@media only screen and (max-device-width: 375px) {
-  #imagine { 
-    bottom: 0;
-}
-}
-#create{
-  position: absolute;
-  z-index: 1;
-  display: none;
-  font-family: 'Seaweed Script', cursive;
-}
 
-@media only screen and (max-device-width: 445px) {
-  #create { 
-    bottom: 0;
-}
-}
-
-@media only screen and (max-device-width: 375px) {
-  #create { 
-    top: 0;
-}
-}
-#deploy{
-  top: 80px;
-  left: 50px;
-  position: absolute;
-  display: none;
-  font-family: 'Seaweed Script', cursive;
-}
-
-@media only screen and (max-device-width: 445px) {
-  #deploy { 
-    top: 30px;
-}
-}
-@media only screen and (max-device-width: 375px) {
-  #deploy { 
-    top: 40px;
-}
-}
 .center{
 text-align: center;
 }
