@@ -136,6 +136,7 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/html.gif");
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 ;
@@ -155,7 +156,7 @@ header.masthead {
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
-      min-height: 700px;
+      min-height: 650px;
       padding-top: 0;
       padding-bottom: 0; }
       header.masthead h1 {
