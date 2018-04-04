@@ -136,7 +136,6 @@ header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/html.gif");
-  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 ;
@@ -483,9 +482,9 @@ float: left;
     height: 100vh;
 }
 
-.container{
+#container{
 
-margin-bottom: 40px !important;
+margin-bottom: 40px;
 
 }
 .skill-bar-percent {
