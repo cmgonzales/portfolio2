@@ -401,12 +401,22 @@ text-align: center;
   
 }
 
+@media screen and (min-width: 1400px) {
+  #profile {
+    height: 240px;
+    margin-bottom: 30px;
+  }
+}
+
 
 .title{
   background-color: rgb(44, 43, 43);
   padding: 0;
   width: 100%;
 }
+
+
+
 
 #time{
  background-color: black;
@@ -490,6 +500,12 @@ margin-top: 400px !important;
 
 }
 
+@media screen and (min-width: 1400px) {
+  #contain {
+    margin-top: 750px !important;
+  }
+}
+
 @media screen and (max-width: 1262px) {
   #contain {
     margin-top: 350px !important;
@@ -560,6 +576,12 @@ margin-top: 400px !important;
 .name{
   font-family: 'Mallanna', sans-serif;
 
+}
+
+@media screen and (min-width: 1400px) {
+  .name {
+    font-size: 50px;
+  }
 }
 
 .fa{
