@@ -363,6 +363,9 @@ header.masthead {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
       font-size: 22px; } }
 
+       
+    
+
 .text-primary {
   color: #F05F40 !important; }
 
@@ -502,7 +505,7 @@ margin-top: 400px !important;
 
 @media screen and (min-width: 1400px) {
   #contain {
-    margin-top: 750px !important;
+    margin-top: 500px !important;
   }
 }
 
@@ -631,3 +634,4 @@ body.preloader-site {
   transform: translate(-50%, -50%);
   width: 120px;
 }
+
