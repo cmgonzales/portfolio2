@@ -499,6 +499,12 @@ margin-top:300px !important;
 }
 
 
+@media screen and (min-width: 1100px) {
+  .picture {
+    margin-top: 400px !important;
+  }
+}
+
 
 @media screen and (max-width: 887px) {
   .picture {
