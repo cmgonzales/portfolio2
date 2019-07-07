@@ -1,30 +1,17 @@
-
         function mytimer(){
-        
             var hour = new Date().getHours();
-            
-
             if(hour > 12){
-            
             hour =  ((hour - 12) + " : ");
-            
-            
         }else{
-                hour = (hour  + " : " );
-
-                
+                hour = (hour  + " : " );    
             }
             return hour;
         }
+
         function myminutes(){
-
         var minutes = new Date().getMinutes();
-
         if(minutes < 10){
-        
-            minutes = ("0" + minutes + " . ");
-
-            
+            minutes = ("0" + minutes + " . "); 
         }else{
             minutes = (minutes + " . ");
         }
@@ -32,8 +19,7 @@
         }
 
         function afternoon(){
-            var noon = new Date().getHours();
-            
+            var noon = new Date().getHours(); 
             var afternoon = "";
             if(noon >= 12){
             afternoon = " PM";

@@ -37,37 +37,22 @@ var myQuestion = [
     ]
     
     for(var i = 0; i <myQuestion.length; i++){
-     
         var question = myQuestion[i].question;
-        
         var el = document.getElementById('question' + [i]);
-       
         el.textContent = question;
     }
     
     function result(){
-    
     for(var i = 0; i < myQuestion.length; i++){
-    
         var answer = myQuestion[i].answer;
-    
         var guess = document.getElementById("answer" + [i]).value;
-    
-    
        if(answer == guess){
            console.log("correct");
           $("#check" + [i]).html("&#10004;").css("color", "green");
-            ;
-    
-       
        }else if(answer != guess){
         $("#check" + [i]).text('X').css("color", "red");
-        console.log("test");
-       
     }else{
-    
-       }
-        
+       }   
     }
     }
     

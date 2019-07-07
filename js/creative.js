@@ -75,18 +75,6 @@
 
 })(jQuery); // End of use strict
 
-$(document).ready(function(){
-  for (var i = 0; i < 100; i++){
-  $("#imagine").delay(1000).fadeIn(1000)
-  $("#create").delay(3000).fadeIn(1000)
-  $("#deploy").delay(5000).fadeIn(1000)
- $("#imagine").hide()
-
-  }
- 
-  });
-
-
   var skillsDiv = $('#skills');
 
   $(window).on('scroll', function(){
