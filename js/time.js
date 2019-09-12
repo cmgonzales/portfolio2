@@ -1,48 +1,47 @@
-        function mytimer(){
-            var hour = new Date().getHours();
-            if(hour > 12){
-            hour =  ((hour - 12) + " : ");
-        }else{
-                hour = (hour  + " : " );    
-            }
-            return hour;
-        }
-
-        function myminutes(){
-        var minutes = new Date().getMinutes();
-        if(minutes < 10){
-            minutes = ("0" + minutes + " . "); 
-        }else{
-            minutes = (minutes + " . ");
-        }
-            return minutes;
-        }
-
-        function afternoon(){
-            var noon = new Date().getHours(); 
-            var afternoon = "";
-            if(noon >= 12){
-            afternoon = " PM";
-                return afternoon;
-            }else{
-                afternoon = " AM";
-                return afternoon;
-            }
-
-        }
-
-        setInterval(function(){
-        var pm = "";
-            var sec = new Date().getSeconds();
-            if(sec < 10){
-            sec = ("0" + sec)
-            }
-            mytimer();
-            myminutes();
-            afternoon();
-            var hours = document.getElementById('hour');
-            hours.textContent = (mytimer() + myminutes() + sec + afternoon());
-        }, 1000);
-
-    
+function mytimer() {
+    var hour = new Date().getHours();
+    hour = hour > 12 ? hour - 12 + " : " : hour + " : ";
+    return hour;
+  }
+  
+  function myminutes() {
+    var minutes = new Date().getMinutes();
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    return minutes;
+  }
+  
+  function afternoon() {
+    var noon = new Date().getHours();
+    noon = noon >= 12 ? " PM" : " AM" 
+    return noon;
+  }
+  
+  var radialObj = radialIndicator("#clock", {
+    radius: 60,
+    barWidth: 10,
+    barColor: "#7fa3b8",
+    fontColor: "#ffffff",
+    fontFamily: "ans-serif",
+    minValue: 0,
+    maxValue: 60,
+    fontSize: 50,
+    fontWeight: "bold",
+    roundCorner: true,
+    format: function(value) {
+      var seconds = new Date().getSeconds();
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+      return seconds;
+    }
+  });
+  
+  setInterval(function() {
+    var sec = new Date().getSeconds();
+    radialObj.value(sec);
+    mytimer();
+    myminutes();
+    afternoon();
+    var hours = document.getElementById("hour");
+    hours.textContent = mytimer() + myminutes() + afternoon();
+  }, 1000);
+  
 
