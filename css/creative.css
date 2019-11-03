@@ -106,8 +106,8 @@ body {
         background-color: transparent; }
   @media (min-width: 992px) {
     #mainNav {
-      border-color: white;
-      background-color: transparent; }
+      border-color: rgba(31, 31, 31, 0.877);
+      background-color: rgba(31, 31, 31, 0.877); }
       #mainNav .navbar-brand {
         color: rgba(255, 255, 255, 0.7); }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -137,7 +137,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/html.gif");
+  background-image: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 ;
@@ -206,7 +206,7 @@ header.masthead {
 
   @media only screen and (max-device-width: 768px) {
     header.masthead { 
-      background-image: url("../img/htmlcroped.gif");
+      background-image: url("../img/background.jpg");
       background-size: cover ;
       height: 680px;
   
@@ -215,7 +215,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 698px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover ;
     height: 650px;
 
@@ -224,7 +224,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 624px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover;
     height: 575px;
 
@@ -234,7 +234,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 603px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover;
     height: 530px;
 
@@ -242,7 +242,7 @@ header.masthead {
 }
 @media only screen and (max-device-width: 554px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover ;
     height: 510px;
 
@@ -251,7 +251,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 503px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover ;
     height: 490px;
 
@@ -259,7 +259,7 @@ header.masthead {
 }
 @media only screen and (max-device-width: 488px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover;
     height: 470px;
 
@@ -268,7 +268,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 447px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover;
     height: 540px;
 
@@ -277,7 +277,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 416px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover ;
     height: 520px;
 
@@ -287,7 +287,7 @@ header.masthead {
 
 @media only screen and (max-device-width: 397px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     background-size: cover ;
     height: 500px;
 
@@ -297,7 +297,7 @@ header.masthead {
 
   @media only screen and (max-device-width: 375px) {
     header.masthead { 
-      background-image: url("../img/htmlcroped.gif");
+      background-image: url("../img/background.jpg");
       background-size: cover;
       height: 470px;
   }
@@ -305,14 +305,14 @@ header.masthead {
 
 @media only screen and (max-device-width: 342px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     height: 450px;
 }
 }
 
 @media only screen and (max-device-width: 301px) {
   header.masthead { 
-    background-image: url("../img/htmlcroped.gif");
+    background-image: url("../img/background.jpg");
     height: 390px;
 }
 }
